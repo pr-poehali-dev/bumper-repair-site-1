@@ -30,7 +30,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       <p className="text-gray-600 text-sm mb-2">{description}</p>
       
       <div className="flex items-center mb-4">
-        <span className="text-drive-red font-semibold">{price}</span>
+        <span className="text-drive-red font-semibold whitespace-nowrap">{price}</span>
         <span className="text-gray-500 text-xs ml-2">*зависит от сложности выполнения работ</span>
       </div>
       

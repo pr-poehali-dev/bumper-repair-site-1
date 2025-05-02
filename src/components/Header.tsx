@@ -5,9 +5,9 @@ const Header = () => {
     <header className="w-full h-[70vh] min-h-[500px] relative flex flex-col justify-between overflow-hidden">
       {/* Фоновое изображение с затемнением */}
       <div 
-        className="absolute inset-0 bg-black/60 z-0"
+        className="absolute inset-0 bg-black/70 z-0"
         style={{
-          backgroundImage: `url(https://cdn.poehali.dev/files/becdca74-dddc-4127-8f34-a437a9f24928.jpg)`,
+          backgroundImage: `url(https://cdn.poehali.dev/files/d5313883-8de1-490c-92cc-17bdc81fb04c.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -24,6 +24,19 @@ const Header = () => {
           className="text-white font-medium text-lg md:text-xl hover:text-drive-red transition-colors"
         >
           +7 (996) 621-53-96
+        </a>
+      </div>
+      
+      {/* Центральная часть с заголовком и кнопкой */}
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-white mb-8">
+          Ремонт бамперов в Тольятти
+        </h2>
+        <a 
+          href="tel:+79966215396" 
+          className="call-button py-3 px-8 text-lg"
+        >
+          Позвонить
         </a>
       </div>
       
